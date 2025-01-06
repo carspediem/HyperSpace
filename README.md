@@ -18,11 +18,12 @@
 #  Screenden çıkalım (geri girmek istersen screen -r hyper)
       CTRL A + D 
 
-#  Browserdan veya uygulamadan aldığımız keyi import etmek için dosya oluşturalım
+#  Browserdan veya uygulamadan aldığımız keyi import etmek için dosya oluşturalım. Aşağıdaki kodu girince bomboş bir sayfa açılacak, browserdan export ettiğiniz keyi oraya yapıştıracaksınız.
       nano my.pem
 
+
 #  Browserdan export ettiğimiz key'i buraya yapıştıralım
-      Daha sonra CTRL X + Y ve enter'a basalım
+      Daha sonra CTRL X + Y ve enter'a basalım yani kaydedip çıkalım
 
 ![image](https://github.com/user-attachments/assets/ddd1e6fb-5552-4d0e-8dfb-9fa1d1d063fd)
 
