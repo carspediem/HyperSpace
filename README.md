@@ -24,6 +24,11 @@
 #  Browserdan export ettiğimiz key'i buraya yapıştıralım
       Daha sonra CTRL X + Y ve enter'a basalım
 
+![image](https://github.com/user-attachments/assets/ddd1e6fb-5552-4d0e-8dfb-9fa1d1d063fd)
+
+
+
+
 #  Oluşturduğumuz dosyayı import edelim
       aios-cli hive import-keys ./my.pem
 
