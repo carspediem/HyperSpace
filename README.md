@@ -55,16 +55,15 @@ Daha sonra Tier seçmemiz gerekiyor. Neye göre seçeceğiz? Eğer sunucumuzun G
 
 
 
-**ÇALIŞTIĞINI NASIL ANLARIM?
-**
+**ÇALIŞTIĞINI NASIL ANLARIM?**
 Örnek çıktı böyle olmalı:
 
 ![image](https://github.com/user-attachments/assets/37795aba-27f2-4e93-a228-af97a690932c)
 
 
 
-**Dün gece çalışıyordu birden durdu puan gelmiyor ne yapmam lazım?
-**
+**Dün gece çalışıyordu birden durdu puan gelmiyor ne yapmam lazım?**
+
 Aşağıdaki kodları tekrar taker taker gir:
 CTRL + C ile screen içi stop
 aios-cli start
