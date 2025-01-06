@@ -28,15 +28,20 @@
 
 
 
-
 #  Oluşturduğumuz dosyayı import edelim
       aios-cli hive import-keys ./my.pem
 
 #  Giriş yapalım
       aios-cli hive login
 
-#  Modelleme indirelim
-      aios-cli models add hf:TheBloke/phi-2-uncensored.q4_k_m.gguf
+#  Model listesine bakalım
+      aios-cli models available
+      
+![image](https://github.com/user-attachments/assets/dbc9daf5-77c3-430f-b398-f4b42b597776)
+      
+
+#  Modelleme indirelim (gördüğüm kadarıyla aşağıdaki model en çok tercih edilen o yüzden değiştirmedim)
+      aios-cli models add hf:TheBloke/phi-2-GGUF:phi-2.Q4_K_M.gguf
 
 
 Daha sonra Tier seçmemiz gerekiyor. Neye göre seçeceğiz? Eğer sunucumuzun GPU memory gücü düşükse 5 yüksekse 1.
@@ -75,6 +80,6 @@ Aşağıdaki kodları tekrar taker taker gir:
 - CTRL + A + D
 - source /root/.bashrc
 - aios-cli hive login
-- aios-cli models add hf:TheBloke/phi-2-uncensored.q4_k_m.gguf
+- aios-cli models add hf:TheBloke/phi-2-GGUF:phi-2.Q4_K_M.gguf
 - aios-cli hive select-tier 5
 - aios-cli start --connect
