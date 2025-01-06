@@ -65,11 +65,11 @@ Daha sonra Tier seçmemiz gerekiyor. Neye göre seçeceğiz? Eğer sunucumuzun G
 **Dün gece çalışıyordu birden durdu puan gelmiyor ne yapmam lazım?**
 
 Aşağıdaki kodları tekrar taker taker gir:
-CTRL + C ile screen içi stop
-aios-cli start
-CTRL + A + D
-source /root/.bashrc
-aios-cli hive login
-aios-cli models add hf:TheBloke/phi-2-GGUF:phi-2.Q4_K_M.gguf
-aios-cli hive select-tier 5
-aios-cli start --connect
+- CTRL + C ile screen içi stop
+- aios-cli start
+- CTRL + A + D
+- source /root/.bashrc
+- aios-cli hive login
+- aios-cli models add hf:TheBloke/phi-2-uncensored.q4_k_m.gguf
+- aios-cli hive select-tier 5
+- aios-cli start --connect
