@@ -18,6 +18,9 @@
 #  Screenden çıkalım (geri girmek istersen screen -r hyper)
       CTRL A + D 
 
+  # Bir daha yetki verelim
+      source /root/.bashrc
+
 #  Browserdan veya uygulamadan aldığımız keyi import etmek için dosya oluşturalım. Aşağıdaki kodu girince bomboş bir sayfa açılacak, browserdan export ettiğiniz keyi oraya yapıştıracaksınız.
       nano my.pem
 
